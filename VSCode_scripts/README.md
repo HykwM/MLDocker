@@ -3,6 +3,10 @@
 Windows版VSCodeでリモートDockerホストを操作する手順を示します。
 ## Usage
 
+0. Dockerホストでsudoなしでdockerコマンドが使えるようにする。
+  
+  具体的にはシェルで『sudo gpasswd -a $USER docker』を実行したあと、再起動。
+
 1. https://docs.docker.com/toolbox/toolbox_install_windows/
   
    のステップ2のみを実行し、Dockerクライアント(Windows機)にDockerToolBoxをインストールする。
