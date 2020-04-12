@@ -15,7 +15,7 @@ RUN echo 'path-include=/usr/share/locale/ja/LC_MESSAGES/*.mo' > /etc/dpkg/dpkg.c
     && rm -rf /var/lib/apt/lists/*
 
 # Set locale
-RUN locale-gen ja_JP.UTF-8 \
+RUN locale-gen ja_JP.UTF-8 en_US.UTF-8 \
     && echo 'LC_ALL=ja_JP.UTF-8' > /etc/default/locale \
     && echo 'LANG=ja_JP.UTF-8' >> /etc/default/locale
 ENV LANG=ja_JP.UTF-8 \
