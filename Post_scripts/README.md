@@ -6,7 +6,7 @@ Dockerfileや『docker run』スクリプトがまとめてあります。
 
 ### 既存イメージからそのままコンテナを作る
   
-1. image_run.shの末尾3行を適宜編集した後、実行する。
+1. image_run.shのコマンド末尾3行を適宜編集した後、実行する。
 
 ### 既存イメージにDockerfileを適用してコンテナを作る
 1. Dockerfileの一行目『YOUR_IMAGE_NAME』を任意のイメージ名に変える。  
